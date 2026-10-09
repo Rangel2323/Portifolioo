@@ -1,0 +1,666 @@
+body {
+    background-color: #071A2B;
+    color: white;
+    transition: 0.4s;
+      background-color: #071A2B;
+       /* background-image:
+     linear-gradient(10deg, transparent 0%, rgba(17, 155, 218, 0.025) 50%, transparent 10%),
+        linear-gradient(60deg, transparent 0%, rgba(17, 155, 218, 0.025) 50%, transparent 55%);
+    background-size: 39px 30px;*/
+}
+
+
+* {
+    scroll-behavior: smooth;
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    width: 7%;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+ul {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+}
+
+.a-header {
+    color: white;
+    text-decoration: none;
+    margin-left: -150px;
+}
+
+.nome {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 100px;
+    margin-top: 300px;
+    margin-left: -300px;
+}
+
+.nome2 {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 100px;
+    margin-top: 0px;
+    margin-left: 200px;
+}
+
+.dev {
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 1250px;
+    font-family: 'Bodoni Moda', serif;
+    margin-top: 30px;
+}
+
+.sobre_caixa {
+    width: 1600px;
+    height: 2000px;
+    background-color: #153e5c;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 390px;
+}
+
+.centrin {
+    display: flex;
+    justify-content: center;
+}
+
+.sobre {
+    color: rgb(255, 255, 255);
+    font-family: 'Lora', serif;
+    font-size: 62px;
+    margin-top: 50px;
+}
+
+.foto {
+    display: flex;
+}
+
+.foto img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-top: 90px;
+}
+
+.escrita {
+    color: aliceblue;
+    display: flex;
+    font-size: 22px;
+    margin-left: 750px;
+    margin-top: -270px;
+}
+
+.experiencia {
+    color: rgb(255, 255, 255);
+    font-family: 'Lora', serif;
+    font-size: 62px;
+    margin-top: 300px;
+}
+
+.caixa_puc {
+    width: 400px;
+    height: 350px;
+    background-color: #297ebb;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 200px;
+    display: flex;
+}
+
+.puc {
+    color: aliceblue;
+    margin-top: 80px;
+    font-size: 23px;
+}
+
+.caixa_copasa {
+    width: 400px;
+    height: 350px;
+    background-color: #297ebb;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 900px;
+    display: flex;
+}
+
+.copasa {
+    color: aliceblue;
+    margin-top: 40px;
+    font-size: 23px;
+}
+
+.skils {
+    color: rgb(255, 255, 255);
+    font-family: 'Lora', serif;
+    font-size: 62px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.skills1 {
+    width: 300px;
+    height: 250px;
+    background-color: #89bbdd;
+    border-radius: 23px;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 0px;
+}
+
+.skills2 {
+    width: 300px;
+    height: 250px;
+    background-color: #89bbdd;
+    border-radius: 23px;
+    display: flex;
+    margin-left: 780px;
+    margin-top: 0px;
+}
+
+.skills3 {
+    width: 300px;
+    height: 250px;
+    background-color: #89bbdd;
+    border-radius: 23px;
+    display: flex;
+    margin-left: 1280px;
+}
+
+.skills4 {
+    width: 300px;
+    height: 250px;
+    background-color: #89bbdd;
+    border-radius: 23px;
+    display: flex;
+    margin-left: 780px;
+}
+
+.skills5 {
+    width: 300px;
+    height: 250px;
+    background-color: #89bbdd;
+    border-radius: 23px;
+    display: flex;
+    margin-left: 300px;
+}
+
+.textos {
+    color: aliceblue;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.Projetos {
+    color: rgb(255, 255, 255);
+    font-family: 'Lora', serif;
+    font-size: 82px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.github {
+    margin-left: 350px;
+}
+
+.github img {
+    height: 200px;
+    margin-top: 150px;
+}
+
+.projeto {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 1150px;
+    margin-top: -130px;
+}
+
+.venha {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.venha a {
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #071A2B;
+    padding: 15px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    transition: 0.3s ease;
+    margin-top: 50px;
+}
+
+.venha a:hover {
+    background-color: #3587ca;
+    color: rgb(255, 255, 255);
+    transform: scale(1.05);
+}
+
+
+
+.formsssss{
+    background-color: #071A2B;
+    height: 1px;
+    width: 1000;
+}
+.cont{
+    color: rgb(255, 255, 255);
+    font-family: 'Lora', serif;
+    font-size: 82px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.formulario {
+    background-color: var(--fundo-secundario);
+    border: 3px solid var(--borda);
+    border-radius: 9px;
+    width: 750px;
+    height: 700px;
+    margin-left: 520px;
+    margin-top: 100px;
+}
+
+.caixa-nome {
+    display: inline-block;
+    margin-left: -200px;
+    border-radius: 70px;
+}
+.caixa-mail{
+     margin-left: -120px;
+}
+.caixa-nome input {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 300px;
+    border-radius: 20px;
+    height: 50px;
+    display: flex;
+}
+
+
+.caixa-mail input {
+    margin-left: 400px;
+    margin-top: -50px;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+
+}
+
+
+.caixa-telefone input {
+    margin-left: 400px;
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+
+}
+
+.caixa-telefone{
+    margin-top: -85px;
+    margin-left: 300px;
+}
+
+.caixa-mensagem input {
+    margin-left: 65px;
+    margin-top: 50px;
+    width: 700px;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+
+}
+
+.butao-enviar button {
+    margin-left: 360px;
+    margin-top: 25px;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: var(--roxo-principal);
+    color: white;
+    font-family: "Intel One Mono", monospace;
+    font-size: 16px;
+}
+
+.caixa-mail ::placeholder{
+    color: #5D5363;
+}
+
+.caixa-nome ::placeholder{
+    color: #5D5363;
+}
+
+.caixa-telefone ::placeholder{
+    color: #5D5363;
+}
+
+.caixa-mensagem ::placeholder{
+    color: #5D5363;
+}
+
+
+/*FIRULAS*/
+
+
+
+
+
+
+
+
+
+
+#tema {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: #153e5c;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+#tema:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+.nome {
+    animation: entrarNome 1.2s ease-out both;
+}
+
+.nome2 {
+    animation: entrarNome 1.2s ease-out 0.4s both;
+}
+
+.dev
+{
+    animation: entrarNome 1.0s ease-out 0.6s both;
+}
+@keyframes entrarNome {
+    from {
+        opacity: 0;
+        transform: translateY(80px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.sobre_caixa {
+    animation: surgirEsquerda linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+
+.foto img {
+    animation: surgirDireita linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+
+.escrita {
+    animation: surgirDireita linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+
+.experiencia {
+    animation: surgirBaixo linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+
+.caixa_puc {
+    animation: surgirEsquerda linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+
+.caixa_copasa {
+    animation: surgirDireita linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+
+.skils {
+    animation: surgirBaixo linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+
+.skills1,
+.skills2,
+.skills3,
+.skills4,
+.skills5 {
+    animation: surgirBaixo linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+.Projetos {
+    animation: surgirBaixo linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+
+.github {
+    animation: surgirEsquerda linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+
+.projeto {
+    animation: surgirDireita linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+
+.venha {
+    animation: surgirBaixo linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+
+@keyframes surgirEsquerda {
+    from {
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes surgirDireita {
+    from {
+        opacity: 0;
+        transform: translateX(150px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes surgirBaixo {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+.rastro {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.216);
+    border-radius: 100%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    animation: desaparecer 0.6s linear forwards;
+}
+
+@keyframes desaparecer {
+    0% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0);
+    }
+}
+
+
+
+
+body.claro {
+    background-color: #f2f2f2;
+    color: #071A2B;
+}
+
+body.claro #tema {
+    background-color: white;
+    color: #071A2B;
+}
+
+body.claro .a-header {
+    color: #071A2B;
+}
+
+body.claro .nome,
+body.claro .nome2,
+body.claro .dev,
+body.claro .sobre,
+body.claro .experiencia,
+body.claro .skils,
+body.claro .Projetos {
+    color: #071A2B;
+}
+
+body.claro .sobre_caixa {
+    background-color: #d9e2e8;
+}
+
+body.claro .escrita,
+body.claro .puc,
+body.claro .copasa,
+body.claro .textos,
+body.claro .projeto {
+    color: #071A2B;
+}
+
+body.claro .caixa_puc,
+body.claro .caixa_copasa {
+    background-color: #89bbdd;
+}
+
+body.claro .skills1,
+body.claro .skills2,
+body.claro .skills3,
+body.claro .skills4,
+body.claro .skills5 {
+    background-color: #c5dce9;
+}
+
+body.claro .venha {
+    color: #071A2B;
+}
+
+body.claro .venha a {
+    color: #071A2B;
+    border-color: #071A2B;
+}
+
+body.claro .venha a:hover {
+    background-color: #3587ca;
+    color: white;
+}
+
+body.claro .rastro {
+    background: rgba(7, 26, 43, 0.25);
+}
+
+
+
+
+
+
+body {
+  --sb-track-color: #173c4f;
+  --sb-thumb-color: #4e6b84;
+  --sb-size: 12px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 9px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 9px;
+  border: 2px solid #506975;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
+
+
